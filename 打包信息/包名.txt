@@ -1,0 +1,9 @@
+赚客星球：
+包名：com.zhuankexq.app
+别名：zhuankexq
+密码：666888
+
+途练宝：
+包名：com.tulianbao.app
+安卓:用云端证书打包
+ios:h5
