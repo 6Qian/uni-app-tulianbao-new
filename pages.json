@@ -1,0 +1,432 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/public/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#f9285c"
+			}
+		},
+		{
+			"path": "pages/public/smslogin",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#f9285c"
+			}
+		},
+		{
+			"path": "pages/public/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/public/retrieve",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		},
+		{
+			"path": "pages/home/rankings",
+			"style": {
+				"navigationBarTitleText": "星球奖励"
+			}
+		},
+		{
+			"path": "pages/home/report",
+			"style": {
+				"navigationBarTitleText": "投诉举报",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/task/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "项目"
+			}
+		},
+		{
+			"path": "pages/task/project_detail",
+			"style": {
+				"navigationBarTitleText": "项目详情",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/task/task_detail",
+			"style": {
+				"navigationBarTitleText": "任务详情",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/task/taskreleaselog",
+			"style": {
+				"navigationBarTitleText": "发布记录"
+			}
+		},
+		{
+			"path": "pages/task/task_release",
+			"style": {
+				"navigationBarTitleText": "发布任务",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/task/creation",
+			"style": {
+				"navigationBarTitleText": "创作"
+			}
+		},
+		{
+			"path": "pages/task/project_release",
+			"style": {
+				"navigationBarTitleText": "创作内容",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/discover/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "游戏列表",
+				"navigationStyle": "default",
+				"navigationBarBackgroundColor": "#f9285c",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/discover/userinfo",
+			"style": {
+				"navigationBarTitleText": "用户主页"
+			}
+		},
+		{
+			"path": "pages/discover/detail",
+			"style": {
+				"navigationBarTitleText": "动态详情",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/discover/release",
+			"style": {
+				"navigationBarTitleText": "发布动态",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/mine/edituser",
+			"style": {
+				"navigationBarTitleText": "编辑资料",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/msg",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/friends",
+			"style": {
+				"navigationBarTitleText": "好友"
+			}
+		},
+		{
+			"path": "pages/mine/vip",
+			"style": {
+				"navigationBarTitleText": "开通会员"
+			}
+		},
+		{
+			"path": "pages/mine/wallet",
+			"style": {
+				"navigationBarTitleText": "钱包"
+			}
+		},
+		{
+			"path": "pages/mine/walleto",
+			"style": {
+				"navigationBarTitleText": "钱包"
+			}
+		},
+		{
+			"path": "pages/mine/giveaway",
+			"style": {
+				"navigationBarTitleText": "金币赠送",
+				"navigationStyle": "default"
+			}
+		},{
+			"path": "pages/mine/exchange",
+			"style": {
+				"navigationBarTitleText": "兑换金豆",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/walletlog",
+			"style": {
+				"navigationBarTitleText": "金币明细",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/orderdetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/mine/team",
+			"style": {
+				"navigationBarTitleText": "邀请好友"
+			}
+		},
+		{
+			"path": "pages/mine/poster",
+			"style": {
+				"navigationBarTitleText": "邀请好友",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/help",
+			"style": {
+				"navigationBarTitleText": "帮助",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/like",
+			"style": {
+				"navigationBarTitleText": "喜欢",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/dynamic",
+			"style": {
+				"navigationBarTitleText": "动态"
+			}
+		},
+		{
+			"path": "pages/mine/browselog",
+			"style": {
+				"navigationBarTitleText": "浏览记录"
+			}
+		},
+		{
+			"path": "pages/mine/certification",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/feedback",
+			"style": {
+				"navigationBarTitleText": "反馈",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/feedbackdetail",
+			"style": {
+				"navigationBarTitleText": "反馈详情",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/submitfeedback",
+			"style": {
+				"navigationBarTitleText": "我要反馈",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/set",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/thirdparty",
+			"style": {
+				"navigationBarTitleText": "第三方绑定",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/blacklist",
+			"style": {
+				"navigationBarTitleText": "拉黑用户",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/logout",
+			"style": {
+				"navigationBarTitleText": "注销账户",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/tasklog",
+			"style": {
+				"navigationBarTitleText": "任务记录",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/task/review",
+			"style": {
+				"navigationBarTitleText": "审核任务",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/task/review_details",
+			"style": {
+				"navigationBarTitleText": "审核任务",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/webview/yhxy",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/webview/ysxy",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/webview/index",
+			"style": {
+				"navigationBarTitleText": "在线客服",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path" : "pages/public/pay",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path": "pages/miner/index",
+			"style": {
+				"navigationBarTitleText": "赚客矿工"
+			}
+		},
+		{
+			"path": "pages/miner/log",
+			"style": {
+				"navigationBarTitleText": "我的矿工",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path" : "pages/mine/withdraw",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/webview/vippay",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path" : "pages/mine/FillInfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "完善实名信息",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/money",
+			"style": {
+				"navigationBarTitleText": "邀请奖励",
+				"navigationStyle": "default"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "盖乐世社区",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#cccccc",
+		"selectedColor": "#f9285c",
+		"spacing": "2",
+		"backgroundColor": "#FFF",
+		"borderStyle": "#eeeeee",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/qq2s.png",
+				"selectedIconPath": "static/qq1s.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/task/index",
+				"iconPath": "static/qq4s.png",
+				"selectedIconPath": "static/qq3s.png",
+				"text": "项目"
+			},
+			{
+				"pagePath": "pages/discover/index",
+				"iconPath": "static/qq6s.png",
+				"selectedIconPath": "static/qq5s.png",
+				"text": "游戏"
+			},{
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/qq8s.png",
+				"selectedIconPath": "static/qq7s.png",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
